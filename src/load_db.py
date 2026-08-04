@@ -56,16 +56,3 @@ if __name__ == "__main__":
     conn.close()
 
     print(f"Base de datos creada en: {DB_PATH}")
-
-
-import sqlite3
-
-conn = sqlite3.connect("../data/processed/menciones.db")
-cursor = conn.execute("SELECT COUNT(*) FROM menciones")
-print("Total filas:", cursor.fetchone()[0])
-
-cursor = conn.execute("SELECT * FROM menciones LIMIT 5")
-for fila in cursor.fetchall():
-    print(fila)
-
-conn.close()
