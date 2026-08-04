@@ -1,0 +1,15 @@
+# Entorno virtual (creado directamente en la raíz del proyecto)
+Lib/
+Scripts/
+pyvenv.cfg
+Include/
+
+# Python
+__pycache__/
+*.pyc
+
+# PyCharm
+.idea/
+
+# Datos generados
+data/processed/
