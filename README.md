@@ -1,8 +1,8 @@
 # Prueba técnica — Pametana
 
-## Qué es esto
+## Overview
 
-Programa en Python que lee un fichero de menciones en medios (`menciones.csv`), lo limpia (el fichero trae bastantes inconsistencias a propósito), calcula unas métricas básicas, permite filtrar por palabra clave, y genera un informe. Como parte de profundización, además persiste los datos en SQLite pensando en que este proceso se repita periódicamente con nuevos datos.
+Programa en Python que lee un fichero de menciones en medios (`menciones.csv`), lo limpia, calcula unas métricas, permite filtrar por palabra clave, y genera un informe. Como parte de profundización, además persiste los datos en SQLite pensando en que el proceso se repita periódicamente con nuevos datos.
 
 ## Cómo ejecutarlo
 
